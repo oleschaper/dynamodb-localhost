@@ -3,7 +3,7 @@
 var tar = require('tar'),
     zlib = require('zlib'),
     path = require('path'),
-    http = require('http'),
+    http = require('https'),
     fs = require('fs'),
     ProgressBar = require('progress'),
     utils = require('./utils');
